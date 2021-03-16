@@ -1,0 +1,42 @@
+.ReactPost {
+  width: 40rem;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  background: #262942;
+  border: 1px solid #903749;
+  border-radius: 3px;
+  color: white;
+}
+
+.answerText {
+  width: 80%;
+  margin-top: 0.5rem;
+  overflow-wrap: break-word;
+}
+
+.likeBtn {
+  outline: 0;
+  border: 0;
+  width: 3rem;
+  padding: 0.2rem;
+  border-radius: 4px;
+  background-color: #903749;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+.likeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #90374952, #903749, #90374952);
+  margin-bottom: 0.7rem;
+  margin-top: 0.7rem;
+}
